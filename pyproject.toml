@@ -1,11 +1,12 @@
 [project]
 name = "pzu"
-version = "0.1.0"
+version = "0.1.1"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "gymnasium>=1.2.2",
+    "moviepy>=2.2.1",
     "numpy>=2.3.5",
     "pettingzoo>=1.25.0",
 ]
@@ -13,6 +14,7 @@ dependencies = [
 [dependency-groups]
 dev = [
     "ipykernel>=7.1.0",
+    "loguru>=0.7.3",
     "mpe2>=0.0.1",
     "setuptools>=80.9.0",
 ]
