@@ -26,5 +26,5 @@
 Some helpful utils for Petting Zoo environments.
 
 # Development
-1. Clone the repoistory with `git`
+1. Clone the repository with `git`
 2. Run `uv run pre-commit install`
