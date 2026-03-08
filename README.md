@@ -25,6 +25,13 @@
 
 Some helpful utils for Petting Zoo environments.
 
+# Current Features
+- `RecordVideo` wrapper for PettingZoo `Parallel` environments (MP4 capture). Interface is Gymnasium-compatible and allows visualising training behaviour.
+- `RecordVideoAEC` wrapper for PettingZoo `AEC` environments (MP4 capture). Interface is Gymnasium-compatible and allows visualising training behaviour.
+- `benchmark_env` utility for simple PettingZoo automated performance benchmarking.
+
+Pull requests and feature requests (via GitHub Issues) are welcomed.
+
 # Development
 1. Clone the repository with `git`
 2. Run `uv run pre-commit install`
